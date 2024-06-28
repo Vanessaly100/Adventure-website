@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>adventure event classwork.netlify.app/</title>
+</head>
+<body>
+    <section class="hero-section">
+        <nav class="nav-bar">
+            <img src="/images/logo.jpg" alt="" class="logo">
+            <ul id="menulist">
+                <li><a href="" class="nav-link active">home</a></li>
+                <li><a href="" class="nav-link" >tour</a></li>
+                <li><a href="" class="nav-link" >explore</a></li>
+                <li><a href=""class="nav-link">services</a></li>
+            </ul>
+            <button class="btn"><span>Contact</span></button>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    <!-- hero text -->
+    <div class="hero-text">
+        <div class="text-content">
+            <p>Explore The <span class="color">Colorful</span> World</p>
+            <h1>COME EXPLORE NATURE</h1>
+            <button class="btn btn1"><span>Learn More</span></button>
+        </div>
+    </div>
+    </section>
+    <main>
+    <section class="section-2">
+        <h2><span class="upcom">Upcoming</span> Events</h2>
+        <div class="card-wrapper">
+            <div class="cards" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease"
+                data-aos-duration="400" data-aos-delay="0">
+                <div class="image-wrapper">
+                    <img src="/images/img2.png" alt="">
+                </div>
+                <div class="card-text">
+                    <h3>Everest Camp Trek</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ad. Voluptates magnam distinctio minus
+                        similique asperiores? Doloribus</p>
+                    <button class="btn btn1"><span>Learn More</span></button>
+                </div>
+            </div>
+            <div class="cards" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease"
+                data-aos-duration="400" data-aos-delay="0" >
+                <div class="image-wrapper">
+                    <img src="/images/img3.png" alt="">
+                </div>
+                <div class="card-text">
+                    <h3>Walking Holidays</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eaque beatae illum enim, perferendis
+                        impedit</p>
+                    <button class="btn btn1"><span>Learn More</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="section-3-content" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease"
+                data-aos-duration="400" data-aos-delay="0">
+            <h2> <span
+                    class="explore">EXPLORE</span> THE WORLD</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ipsum excepturi neque eveniet vero omnis
+                rem veritatis a reiciendis commodi, laudantium voluptates animi odio, officiis modi. Reprehenderit eos
+                mollitia cum?</p>
+            <button class="btn btn1"><span>Learn More</span></button>
+        </div>
+    </section>
+
+    <section class="section-4" data-aos="flip-right">
+        <div class="section-4-text" >
+            <h2>Upcoming <span class="tour">Tour</span> & <span class="destina">Destination</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ipsum excepturi neque eveniet vero omnis
+                rem veritatis a reiciendis commodi, laudantium voluptates animi odio, officiis modi. Reprehenderit eos
+                mollitia cum?</p>
+            <button class="btn btn1"><span>Learn More</span></button>
+        </div>
+        <div class="section-4-images">
+            <img src="/images/img3.png" alt="">
+            <img src="/images/img4.png" alt="">
+            <img src="/images/img5.png" alt="">
+            <img src="/images/img6.png" alt="">
+        </div>
+    </section>
+    </main>
+
+        <footer>
+            <div class="foter-desc">
+                <div>10, Downing Street, London | +90 2334 7771 888 | reatour@gmail.com </div>
+        
+                <div>Copyright © 2024 ADB-Soft</div>
+            </div>
+        </footer>
+        <script>
+            let menuList = document.getElementById("menulist")
+            menuList.style.maxHeight = "0px";
+
+            function toggleMenu() {
+                if (menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "300px";
+                }
+                else {
+                    menuList.style.maxHeight = "0px";
+                }
+            }
+
+        </script>
+        <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
